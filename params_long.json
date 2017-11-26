@@ -1,0 +1,155 @@
+{
+   "p0":{
+      "desc":"povprečen zračni tlak (hPa)",
+      "name":"p",
+      "pid":"12",
+      "unit":"hPa",
+      "short_desc":"povp. tlak",
+      "precision":"0",
+      "type":"4"
+   },
+   "p1":{
+      "desc":"minimalen zračni tlak (hPa)",
+      "name":"pmin",
+      "pid":"13",
+      "unit":"hPa",
+      "short_desc":"min. tlak",
+      "precision":"0",
+      "type":"4"
+   },
+   "p2":{
+      "desc":"maksimalen zračni tlak (hPa)",
+      "name":"pmax",
+      "pid":"14",
+      "unit":"hPa",
+      "short_desc":"max. tlak",
+      "precision":"0",
+      "type":"4"
+   },
+   "p3":{
+      "desc":"terminska temperatura zraka na 2m (°C)",
+      "name":"t2m_termin",
+      "pid":"2",
+      "unit":"°C",
+      "short_desc":"T",
+      "type":"4",
+      "precision":"1"
+   },
+   "p4":{
+      "desc":"povprečna temperatura zraka na 2m (°C)",
+      "name":"t2m",
+      "pid":"15",
+      "unit":"°C",
+      "short_desc":"povp. T",
+      "type":"4",
+      "precision":"1"
+   },
+   "p5":{
+      "desc":"minimalna temperatura zraka na 2m (°C)",
+      "name":"t2mmin",
+      "pid":"16",
+      "unit":"°C",
+      "short_desc":"min. T",
+      "type":"4",
+      "precision":"1"
+   },
+   "p6":{
+      "desc":"maksimalna temperatura zraka na 2m (°C)",
+      "name":"t2mmax",
+      "pid":"17",
+      "unit":"°C",
+      "short_desc":"max. T",
+      "type":"4",
+      "precision":"1"
+   },
+   "p7":{
+      "desc":"terminska relativna vlaga (%)",
+      "name":"rh_termin",
+      "pid":"4",
+      "unit":"%",
+      "short_desc":"rel. vla.",
+      "precision":"0",
+      "type":"4"
+   },
+   "p8":{
+      "desc":"povprečna relativna vlaga (%)",
+      "name":"rh",
+      "pid":"18",
+      "unit":"%",
+      "short_desc":"povp. rel. vla.",
+      "precision":"0",
+      "type":"4"
+   },
+   "p9":{
+      "desc":"minimalna relativna vlaga (%)",
+      "name":"rhmin",
+      "pid":"19",
+      "unit":"%",
+      "short_desc":"min. rel. vla.",
+      "precision":"0",
+      "type":"4"
+   },
+   "p10":{
+      "desc":"maksimalna relativna vlaga (%)",
+      "name":"rhmax",
+      "pid":"20",
+      "unit":"%",
+      "short_desc":"max. rel. vla.",
+      "precision":"0",
+      "type":"4"
+   },
+   "p11":{
+      "desc":"količina padavin (mm)",
+      "name":"padavine",
+      "pid":"26",
+      "unit":"mm",
+      "short_desc":"količina padavin",
+      "type":"4",
+      "precision":"1"
+   },
+   "p12":{
+      "desc":"povprečna hitrost vetra (m/s)",
+      "name":"veter_hitrost",
+      "pid":"21",
+      "unit":"m/s",
+      "short_desc":"hitrost vetra",
+      "type":"4",
+      "precision":"1"
+   },
+   "p13":{
+      "desc":"povprečna smer vetra (°)",
+      "name":"veter_vek_smer",
+      "pid":"23",
+      "unit":"°",
+      "short_desc":"smer vetra",
+      "type":"4",
+      "precision":"1"
+   },
+   "p14":{
+      "desc":"maksimalna hitrost vetra (m/s)",
+      "name":"veter_max_hitrost",
+      "pid":"24",
+      "unit":"m/s",
+      "short_desc":"sunki vetra",
+      "type":"4",
+      "precision":"1"
+   },
+   "p15":{
+      "desc":"povprečen energijski tok globalnega sevanja (W/m2)",
+      "name":"energija_gl",
+      "pid":"27",
+      "unit":"W/m2",
+      "short_desc":"globalno sev.",
+      "precision":"0",
+      "type":"4"
+   },
+   "p16":{
+      "desc":"povprečen energijski tok difuznega sevanja (W/m2)",
+      "name":"energija_di",
+      "pid":"28",
+      "unit":"W/m2",
+      "short_desc":"difuzno sev.",
+      "precision":"0",
+      "type":"4"
+   }
+}

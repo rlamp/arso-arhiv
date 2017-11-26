@@ -1,0 +1,238 @@
+{
+  "0": {
+    "sid": "_1857",
+    "name": "AJDOVŠČINA - DOLENJE"
+  },
+  "1": {
+    "sid": "_2218",
+    "name": "BABNO POLJE"
+  },
+  "2": {
+    "sid": "_1824",
+    "name": "BILJE"
+  },
+  "3": {
+    "sid": "_2255",
+    "name": "BOHINJSKA ČEŠNJICA"
+  },
+  "4": {
+    "sid": "_2217",
+    "name": "BORŠT PRI GORENJI VASI"
+  },
+  "5": {
+    "sid": "_1868",
+    "name": "BOVEC - LETALIŠČE"
+  },
+  "6": {
+    "sid": "_2862",
+    "name": "BRINJE"
+  },
+  "7": {
+    "sid": "_2471",
+    "name": "CELJE - MEDLOG"
+  },
+  "8": {
+    "sid": "_2215",
+    "name": "CERKLJE - LETALIŠČE"
+  },
+  "9": {
+    "sid": "_1834",
+    "name": "CzRNOMELJ - DOBLIČE"
+  },
+  "10": {
+    "sid": "_1860",
+    "name": "GAČNIK"
+  },
+  "11": {
+    "sid": "_2633",
+    "name": "HOČKO POHORJE"
+  },
+  "12": {
+    "sid": "_1862",
+    "name": "HRASTNIK"
+  },
+  "13": {
+    "sid": "_2284",
+    "name": "IDRIJA - ČISTILNA NAPRAVA"
+  },
+  "14": {
+    "sid": "_2250",
+    "name": "ILIRSKA BISTRICA - KOSEZE"
+  },
+  "15": {
+    "sid": "_1855",
+    "name": "ISKRBA"
+  },
+  "16": {
+    "sid": "_2637",
+    "name": "JERONIM"
+  },
+  "17": {
+    "sid": "_2639",
+    "name": "KADRENCI"
+  },
+  "18": {
+    "sid": "_2252",
+    "name": "KOPER"
+  },
+  "19": {
+    "sid": "_2293",
+    "name": "KOPER - KAPITANIJA"
+  },
+  "20": {
+    "sid": "_1856",
+    "name": "KOPER - LUKA"
+  },
+  "21": {
+    "sid": "_2645",
+    "name": "KRANJ"
+  },
+  "22": {
+    "sid": "_1820",
+    "name": "KREDARICA"
+  },
+  "23": {
+    "sid": "_2210",
+    "name": "KRVAVEC"
+  },
+  "24": {
+    "sid": "_2299",
+    "name": "LENDAVA"
+  },
+  "25": {
+    "sid": "_2213",
+    "name": "LESCE - LETALIŠČE"
+  },
+  "26": {
+    "sid": "_1838",
+    "name": "LETALIŠČE EDVARDA RUSJANA MARIBOR"
+  },
+  "27": {
+    "sid": "_1865",
+    "name": "LETALIŠČE JOŽETA PUČNIKA LJUBLJANA"
+  },
+  "28": {
+    "sid": "_1846",
+    "name": "LISCA"
+  },
+  "29": {
+    "sid": "_2286",
+    "name": "LITIJA "
+  },
+  "30": {
+    "sid": "_2649",
+    "name": "LITIJA (bober)"
+  },
+  "31": {
+    "sid": "_1828",
+    "name": "LJUBLJANA - BEŽIGRAD"
+  },
+  "32": {
+    "sid": "_1872",
+    "name": "LJUBLJANA - KLEČE"
+  },
+  "33": {
+    "sid": "_2650",
+    "name": "LOGATEC"
+  },
+  "34": {
+    "sid": "_2297",
+    "name": "MALKOVEC"
+  },
+  "35": {
+    "sid": "_1836",
+    "name": "MARIBOR - TABOR"
+  },
+  "36": {
+    "sid": "_1842",
+    "name": "MURSKA SOBOTA - RAKIČAN"
+  },
+  "37": {
+    "sid": "_1832",
+    "name": "NOVO MESTO"
+  },
+  "38": {
+    "sid": "_2311",
+    "name": "OTLICA - EKOLOSKA"
+  },
+  "39": {
+    "sid": "_2195",
+    "name": "PIRAN - BOJA"
+  },
+  "40": {
+    "sid": "_2660",
+    "name": "PLANINA POD GOLICO"
+  },
+  "41": {
+    "sid": "_1869",
+    "name": "PODČETRTEK - ATOMSKE TOPLICE"
+  },
+  "42": {
+    "sid": "_1849",
+    "name": "PORTOROŽ - LETALIŠČE"
+  },
+  "43": {
+    "sid": "_1866",
+    "name": "POSTOJNA"
+  },
+  "44": {
+    "sid": "_1859",
+    "name": "PTUJ - TERME"
+  },
+  "45": {
+    "sid": "_1841",
+    "name": "RADENCI"
+  },
+  "46": {
+    "sid": "_1821",
+    "name": "RATEČE"
+  },
+  "47": {
+    "sid": "_2666",
+    "name": "RAVNE NA KOROŠKEM"
+  },
+  "48": {
+    "sid": "_1848",
+    "name": "ROGLA"
+  },
+  "49": {
+    "sid": "_1858",
+    "name": "RUDNO POLJE"
+  },
+  "50": {
+    "sid": "_2372",
+    "name": "SOTINSKI BREG"
+  },
+  "51": {
+    "sid": "_2216",
+    "name": "SzKOCJAN"
+  },
+  "52": {
+    "sid": "_1839",
+    "name": "SzMARTNO PRI SLOVENJ GRADCU"
+  },
+  "53": {
+    "sid": "_1825",
+    "name": "TRBOVLJE"
+  },
+  "54": {
+    "sid": "_2619",
+    "name": "VELENJE"
+  },
+  "55": {
+    "sid": "_1837",
+    "name": "VELENJE - TEŠ"
+  },
+  "56": {
+    "sid": "_2627",
+    "name": "ZADLOG"
+  },
+  "57": {
+    "sid": "_1884",
+    "name": "ZAGORJE"
+  },
+  "58": {
+    "sid": "_2616",
+    "name": "ZGORNJA SORICA"
+  }, 
+}
