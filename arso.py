@@ -5,11 +5,11 @@ from datetime import date, datetime, timedelta
 from decorators import retry
 from urllib.parse import urlparse, urlencode, urlunparse
 from urllib.request import urlopen
-import demjson
 import os.path
 import pandas as pd
 import re
 import urllib.error
+import dirtyjson
 
 
 BASE_URL = "http://meteo.arso.gov.si/webmet/archive/data.xml"
@@ -63,8 +63,8 @@ class arso_data:
 
         response = urlopen(query_url).read().decode('utf-8')
 
-        json = arso_data.rgx_json.search(response).group(1)
-        json = demjson.decode(json)
+        json_str = arso_data.rgx_json.search(response).group(1)
+        json = dirtyjson.loads(json_str)
 
         return json
 
@@ -75,9 +75,9 @@ class arso_data:
             os.makedirs(os.path.dirname(cache_filename), exist_ok=True)
             if os.path.exists(cache_filename):
                 if type_p == TYPE_HHOUR:
-                    return pd.read_csv(cache_filename, index_col=0, parse_dates=True, squeeze=True)
+                    return pd.read_csv(cache_filename, index_col=0, parse_dates=True,)
                 elif type_p == TYPE_DAILY:
-                    return pd.read_csv(cache_filename, index_col=0, parse_dates=True, squeeze=True, header=None)
+                    return pd.read_csv(cache_filename, index_col=0, parse_dates=True, header=None)
 
             # Else query data
             json = arso_data._get_json(vars_p, group_p, type_p, wstation_id_p, date_p)
@@ -111,7 +111,7 @@ class arso_data:
 
 
     @staticmethod
-    def get_data_hhour(dateTime, features):
+    def get_data_hhour(dateTime, features, cache_files=False):
         hour = dateTime.hour * 2
         if dateTime.minute >= 30:
             hour = hour + 1
@@ -122,19 +122,21 @@ class arso_data:
             group_p=GROUP_HHOUR,
             type_p=TYPE_HHOUR,
             wstation_id_p=WSTATION_ID_HHOUR,
-            date_p=dateTime.date()
+            date_p=dateTime.date(),
+            cache_files=cache_files
         )
         
         return data[features].values[hour]
 
     @staticmethod
-    def get_data_daily(date, features):
+    def get_data_daily(date, features, cache_files=False):
         data = arso_data._get_data(
             vars_p=VARS_DAILY,
             group_p=GROUP_DAILY,
             type_p=TYPE_DAILY,
             wstation_id_p=WSTATION_ID_DAILY,
-            date_p=date
+            date_p=date,
+            cache_files=cache_files
         )
 
         return data[features].values
@@ -143,5 +145,5 @@ class arso_data:
 if __name__ == '__main__':
     a=arso_data.get_data_daily(date(2012,11,11), ['sneg','toca', 'padavinski_dan'])
     print(a)
-    b=arso_data.get_data_hhour(datetime(2012,11,11,12,30), ['t2m', 'veter_hitrost'])
+    b=arso_data.get_data_hhour(datetime(2012,11,11,12,30), ['t2m', 'veter_hitrost'], cache_files=True)
     print(b)
