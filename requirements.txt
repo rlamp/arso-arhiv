@@ -1,0 +1,2 @@
+pandas==2.0.3
+dirtyjson==1.0.8
